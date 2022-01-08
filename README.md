@@ -11,7 +11,7 @@ Requirement:
     The dialog window will present a unique URL that will map to the channel. Make sure that you copy and save the URL — you will need to provide it to the outside service.
     Select the Done button. The webhook will be available in the team channel.
 
-    more details can be found https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook
+    more details can be found on https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook
 
 2. Install pymsteams
 
