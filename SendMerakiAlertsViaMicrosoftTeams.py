@@ -1,6 +1,6 @@
 import meraki
 import time
-from skpy import Skype
+import pymsteams
 myTeamsMessage = pymsteams.connectorcard("<Microsoft Webhook URL>")
 OfficeStatus = {}
 APStatus = {}
@@ -60,7 +60,6 @@ def getStatus():
                             myTeamsMessage.text(i + " is "+ j)
                             myTeamsMessage.send()
                             OldStatus.remove((i + " is offline"))
-                return OldStatus
         except:
               print("Request timeout------waiting for 60 seconds")
                             
