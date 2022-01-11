@@ -14,13 +14,13 @@ The application scans all devices within an organization and store the status of
 ## Install and Setup
 1. Create a webhook in MS Teams
 
-  - Add an incoming webhook to a Teams channel:
+   - Add an incoming webhook to a Teams channel:
 
-    Navigate to the channel where you want to add the webhook and select (•••) More Options from the top navigation bar.
-    Choose Connectors from the drop-down menu and search for Incoming Webhook.
-    Select the Configure button, provide a name, and optionally, upload an image avatar for your webhook.
-    The dialog window will present a unique URL that will map to the channel. Make sure that you copy and save the URL — you will need to provide it to the outside service.
-    Select the Done button. The webhook will be available in the team channel.
+     Navigate to the channel where you want to add the webhook and select (•••) More Options from the top navigation bar.
+     Choose Connectors from the drop-down menu and search for Incoming Webhook.
+     Select the Configure button, provide a name, and optionally, upload an image avatar for your webhook.
+     The dialog window will present a unique URL that will map to the channel. Make sure that you copy and save the URL — you will need to provide it to the outside service.
+     Select the Done button. The webhook will be available in the team channel.
         
 2. Install required libraries on Python
     -	Meraki
@@ -28,8 +28,7 @@ The application scans all devices within an organization and store the status of
     -	pymsteams
         pip install pymsteams
 
-3. Meraki API Key
-  https://documentation.meraki.com/General_Administration/Other_Topics/Cisco_Meraki_Dashboard_API
+3. Meraki API Key (https://documentation.meraki.com/General_Administration/Other_Topics/Cisco_Meraki_Dashboard_API)
 
 ## Using the application
   1. Open the application with your Python IDLE https://www.python.org/downloads/
@@ -39,11 +38,12 @@ The application scans all devices within an organization and store the status of
   5.	Run the application
 
 ## Technologies used
-  The following technologies were used as part of this demo:
-  1.	Cisco Meraki MX devices
-  2.	Cisco Meraki MS Devices
-  3.	Cisco Meraki MR devices
-  4.	Microsoft Microsoft Teams
+  **The following technologies were used as part of this demo:**
+
+  -	Cisco Meraki MX devices
+  -	Cisco Meraki MS Devices
+  -	Cisco Meraki MR devices
+  -	Microsoft Microsoft Teams
 
 ## License
 - Distributed under the MIT License. See LICENSE.txt for more information.
