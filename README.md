@@ -2,7 +2,7 @@
 This is part of a project to have one Alert system for all network devices (Meraki Devices) in an organization. The main purpose of this application is to Check Meraki devices status in real time and sending text messages to a microsoft teams channel when a device's status is changed (Online/Offline).
 
 ## Requirements
- **To use this application you need:
+ ** To use this application you need:
  
     - Python 3.7+
     - Meraki API key
