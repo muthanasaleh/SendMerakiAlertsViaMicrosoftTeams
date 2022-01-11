@@ -14,7 +14,7 @@ The application scans all devices within an organization and store the status of
 ## Install and Setup
 1. Create a webhook in MS Teams
 
-  Add an incoming webhook to a Teams channel:
+  - Add an incoming webhook to a Teams channel:
 
   Navigate to the channel where you want to add the webhook and select (•••) More Options from the top navigation bar.
   Choose Connectors from the drop-down menu and search for Incoming Webhook.
@@ -23,12 +23,12 @@ The application scans all devices within an organization and store the status of
   Select the Done button. The webhook will be available in the team channel.
         
 2. Install required libraries on Python
-    •	Meraki
+    -	Meraki
         Pip install meraki
-    •	pymsteams
+    -	pymsteams
         pip install pymsteams
 
-  Meraki API Key
+3. Meraki API Key
   https://documentation.meraki.com/General_Administration/Other_Topics/Cisco_Meraki_Dashboard_API
 
 ## Using the application
