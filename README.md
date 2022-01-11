@@ -23,11 +23,12 @@ The application scans all devices within an organization and store the status of
      Select the Done button. The webhook will be available in the team channel.
         
 2. Install required libraries on Python
-    -	Meraki
-        Pip install meraki
-    -	pymsteams
-        pip install pymsteams
-
+  - Meraki (https://pypi.org/project/meraki/)
+    - pip install meraki
+  - pymsteams
+    - pip install pymsteams(https://pypi.org/project/pymsteams/)
+  - [Learn more about pip command](https://pip.pypa.io/en/stable/installation/)
+  
 3. Meraki API Key (https://documentation.meraki.com/General_Administration/Other_Topics/Cisco_Meraki_Dashboard_API)
 
 ## Using the application
