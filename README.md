@@ -32,11 +32,12 @@ The application scans all devices within an organization and store the status of
 3. Meraki API Key (https://documentation.meraki.com/General_Administration/Other_Topics/Cisco_Meraki_Dashboard_API)
 
 ## Using the application
-  1. Open the application with your Python IDLE https://www.python.org/downloads/
-  2.	Edit Meraki API key value
-  3.	Edit Organization ID value(How to get organization ID https://developer.cisco.com/meraki/api/#!get-organizations)
-  4.	Create incoming Webhook (https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook)
-  5.	Run the application
+  1. Download SendMerakiAlertsViaMicrosoftTeams.py
+  2. Open the application with your Python IDLE https://www.python.org/downloads/
+  3.	Edit Meraki API key value
+  4.	Edit Organization ID value(How to get organization ID https://developer.cisco.com/meraki/api/#!get-organizations)
+  5.	Create incoming Webhook (https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook)
+  6.	Run the application
 
 ## Technologies used
   **The following technologies were used as part of this demo:**
