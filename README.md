@@ -1,5 +1,6 @@
 # SendMerakiAlertsViaMicrosoftTeams
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/muthanasaleh/SendMerakiAlertsViaSkype)
+
 This is part of a project to have one Alert system for all network devices (Meraki Devices) in an organization. The main purpose of this application is to Check Meraki devices status in real time and sending text messages to a microsoft teams channel when a device's status is changed (Online/Offline).
 
 ## Requirements
